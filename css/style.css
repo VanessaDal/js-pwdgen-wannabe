@@ -1,0 +1,22 @@
+.risultato {
+  text-align: center;
+  color: darkslategrey;
+  float: left;
+  margin-top: 10%;
+}
+
+.container {
+  display: table;
+  content: "";
+  clear: both;
+  margin: auto;
+  background-color: #78bbcb;
+}
+
+.jesus-left {
+  float: left;
+}
+
+.jesus-right {
+  float: left;
+}

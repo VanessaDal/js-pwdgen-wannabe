@@ -4,8 +4,8 @@ var cognome = prompt("Qual è il tuo cognome?");
 
 var colore = prompt("Qual è il tuo colore preferito?");
 
-var password = nome+cognome+colore+19;
+var password = nome+cognome+colore+Math.floor(Math.random() * 100);
 
 console.log(password);
 
-document.getElementById("titolo").innerHTML = "Grazie! Abbiamo generato la password: " + password;
+document.getElementById("titolo").innerHTML = "Grazie! Abbiamo generato per te la password: " + password;
