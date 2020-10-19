@@ -8,4 +8,4 @@ var password = nome+cognome+colore+Math.floor(Math.random() * 100);
 
 console.log(password);
 
-document.getElementById("titolo").innerHTML = "Grazie! Abbiamo generato per te la password: " + password;
+document.getElementById("titolo").innerHTML = "Grazie per aver compilato il form! Abbiamo generato per te la password: " + password;
