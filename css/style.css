@@ -12,21 +12,25 @@
 }
 
 .container {
-  display: table;
-  content: "";
-  clear: both;
+  display: flex;
+  justify-content: space-around;
   background-color: #78bbcb;
-  text-align: center;
   width: 100%;
   height: 100%;
   margin: auto;
 }
 
+body {
+  background-color: #78bbcb;
+}
+
+body > h1,
+h3 {
+  text-align: center;
+}
+
 .jesus-left {
-  float: left;
-  margin-left: 5%;
 }
 
 .jesus-right {
-  float: left;
 }
